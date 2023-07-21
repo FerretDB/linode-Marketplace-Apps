@@ -1,8 +1,8 @@
 #!/bin/bash
 
-# <UDF name="username" label="username for authentication" default="username" />
-# <UDF name="password" label="password for authentication" default="password" />
-# <UDF name="ipaddr" label="public bind address, rebuild the server after obtaining a public IP to allow remote connections" default="127.0.0.1" />
+# <UDF name="username" label="Username for authentication" default="username" />
+# <UDF name="password" label="Password for authentication" default="password" />
+# <UDF name="ipaddr" label="Listen TCP address" default="127.0.0.1" />
 
 apt update && apt upgrade -y && apt install -y wget postgresql postgresql-contrib
 

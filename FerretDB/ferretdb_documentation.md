@@ -22,9 +22,9 @@ You can configure your FerretDB App by providing values for the following fields
 
 | **Field** | **Description** |
 |:--------------|:------------|
-| **username** | Username for authentication, default value is "username". *Required*. |
-| **username** | Password for authentication, default value is "password". *Required*. |
-| **ipaddr** | Listen TCP address, default value is "127.0.0.1:27017". *Required*. |
+| **username** | Username for authentication, default value is "username". |
+| **username** | Password for authentication, default value is "password". |
+| **ipaddr** | Listen TCP address, default value is "127.0.0.1:27017". |
 
 ### Linode Options
 
@@ -58,7 +58,11 @@ mongosh "mongodb://username:password@your_server_public_ipv4:27017/?authMechanis
 
 ### Getting Logs
 
-FerretDB writes logs to the standard error (`stderr`) stream but does not retain them. Refer to the [flags](https://docs.ferretdb.io/configuration/flags/#miscellaneous) to adjust the log level.
+```
+journalctl -u ferretdb.service
+```
+
+Refer to the [flags](https://docs.ferretdb.io/configuration/flags/#miscellaneous) to adjust the log level.
 
 ### Next Steps
 
