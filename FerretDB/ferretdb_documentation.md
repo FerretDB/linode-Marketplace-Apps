@@ -66,6 +66,17 @@ Refer to the [flags](https://docs.ferretdb.io/configuration/flags/#miscellaneous
 
 ### Next Steps
 
+- Start developing with an official MongoDB
+ driver [here](https://www.mongodb.com/docs/drivers/).
+- Basic [CRUD operations](https://docs.ferretdb.io/category/basic-crud-operations/).
+- [Operators](https://docs.ferretdb.io/category/operators/).
+- [Aggregation Operations](https://docs.ferretdb.io/category/aggregation-operations/).
+- [Query pushdown](https://docs.ferretdb.io/pushdown/).
+- [Indexes](https://docs.ferretdb.io/indexes/).
+- [Security](https://docs.ferretdb.io/category/security/).
+- See the known differences [here](https://docs.ferretdb.io/diff/).
+- Public [roadmap](https://github.com/orgs/FerretDB/projects/2).
+
 ## For further documentation visit:
 - [Documentation for users](https://docs.ferretdb.io/).
 - [Documentation for Go developers about embeddable FerretDB](https://pkg.go.dev/github.com/FerretDB/FerretDB/ferretdb).
