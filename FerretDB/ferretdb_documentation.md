@@ -50,7 +50,7 @@ After providing all required Linode Options, click on the **Create** button. **Y
 
 ### Connect to FerretDB
 
-To use the MongoDB Shell, first download and install the it [here](https://www.mongodb.com/docs/mongodb-shell/install/). Please note that FerretDB currently supports the PLAIN authentication mechanism, _only_. Using other mechanisms will not work.
+To use the MongoDB Shell, first download and install it [here](https://www.mongodb.com/docs/mongodb-shell/install/). Please note that FerretDB currently supports the PLAIN authentication mechanism, _only_. Using other mechanisms will not work.
 
 ```
 mongosh "mongodb://username:password@your_server_public_ipv4:27017/?authMechanism=PLAIN"
