@@ -4,9 +4,11 @@
 # <UDF name="password" label="Password for authentication" default="password" />
 # <UDF name="ipaddr" label="Listen TCP address" default="127.0.0.1" />
 
+export VERSION=1.6.0
+
 apt update && apt upgrade -y && apt install -y wget postgresql postgresql-contrib
 
-wget https://github.com/FerretDB/FerretDB/releases/download/v1.6.0/ferretdb.deb
+wget https://github.com/FerretDB/FerretDB/releases/download/v$VERSION/ferretdb.deb
 
 dpkg -i ferretdb.deb
 
@@ -26,6 +28,7 @@ After=network.target
 
 [Service]
 Type=simple
+Environment="FERRETDB_TEST_TELEMETRY_PACKAGE=linode"
 ExecStart=/usr/bin/ferretdb --listen-addr=$IPADDR:27017 --debug-addr="127.0.0.1:8089"
 Restart=on-failure
 RestartSec=5s
