@@ -37,4 +37,4 @@ Ubuntu 20.04
 #13232d
 
 ### Logo
-[FerretDB Logo](assets/ferretdb_logo.jpeg)
+[FerretDB Logo](assets/ferretdb_logo.svg)
