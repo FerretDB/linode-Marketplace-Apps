@@ -24,7 +24,7 @@ You can configure your FerretDB App by providing values for the following fields
 |:--------------|:------------|
 | **username** | Username for authentication, default value is "username". *Required*. |
 | **username** | Password for authentication, default value is "password". *Required*. |
-| **ipaddr** | Listen TCP address, default value is "127.0.0.1:27017". *Required*. |
+| **ipaddr** | Listen TCP address, default value is "127.0.0.1". *Required*. |
 
 ### Linode Options
 
