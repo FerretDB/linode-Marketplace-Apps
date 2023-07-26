@@ -4,7 +4,7 @@
 # <UDF name="password" label="Password for authentication" default="password" />
 # <UDF name="ipaddr" label="Listen TCP address" default="127.0.0.1" />
 
-export VERSION=1.6.0
+export VERSION=1.6.1
 
 apt update && apt upgrade -y && apt install -y wget postgresql postgresql-contrib
 
