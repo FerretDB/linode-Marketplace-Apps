@@ -8,7 +8,7 @@ FerretDB is an open-source proxy, converting the MongoDB 6.0+ wire protocol quer
 
 
 ### Version Number
-[1.6.0](https://github.com/FerretDB/FerretDB/releases/download/v1.6.0/ferretdb.deb)
+[1.6.1](https://github.com/FerretDB/FerretDB/releases/download/v1.6.1/ferretdb.deb)
 
 ### Support URL
 
